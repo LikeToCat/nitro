@@ -67,8 +67,8 @@ importers:
         specifier: ^3.2.3
         version: 3.2.3
       cookie-es:
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^1.1.0
+        version: 1.1.0
       croner:
         specifier: ^8.0.1
         version: 8.0.1
@@ -211,8 +211,8 @@ importers:
         specifier: ^1.10.2
         version: 1.10.2(ioredis@5.3.2)
       unwasm:
-        specifier: ^0.3.8
-        version: 0.3.8
+        specifier: ^0.3.9
+        version: 0.3.9
     devDependencies:
       '@azure/functions':
         specifier: ^3.5.1
@@ -221,8 +221,8 @@ importers:
         specifier: ^1.1.7
         version: 1.1.7
       '@cloudflare/workers-types':
-        specifier: ^4.20240320.1
-        version: 4.20240320.1
+        specifier: ^4.20240329.0
+        version: 4.20240329.0
       '@types/aws-lambda':
         specifier: ^8.10.136
         version: 8.10.136
@@ -890,8 +890,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20240320.1:
-    resolution: {integrity: sha512-CiYtVpQURPgQqtBKkmOAnfPElVZuD7Xyf1IxKtKp2B4aB9gnooapwJhzeY8c4Ls4u17SgMS0MprOkrgYwzZ6xg==}
+  /@cloudflare/workers-types@4.20240329.0:
+    resolution: {integrity: sha512-AbzgvSQjG8Nci4xxQEcjTTVjiWXgOQnFIbIHtEZXteHiMGDXMWGegjWBo5JHGsZCq+U5V/SD5EnlypQnUQEoig==}
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -3644,8 +3644,8 @@ packages:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
     dev: true
 
-  /cookie-es@1.0.0:
-    resolution: {integrity: sha512-mWYvfOLrfEc996hlKcdABeIiPHUPC6DM2QYZdGGOvhOTbA3tjm2eBwqlJpoFdjC89NI4Qt6h0Pu06Mp+1Pj5OQ==}
+  /cookie-es@1.1.0:
+    resolution: {integrity: sha512-L2rLOcK0wzWSfSDA33YR+PUHDG10a8px7rUHKWbGLP4YfbsMed2KFUw5fczvDPbT98DDe3LEzviswl810apTEw==}
     dev: false
 
   /cookie-signature@1.0.6:
@@ -5547,7 +5547,7 @@ packages:
   /h3@1.11.1:
     resolution: {integrity: sha512-AbaH6IDnZN6nmbnJOH72y3c5Wwh9P97soSVdGSBbcDACRdkC0FEWf25pzx4f/NuOCK6quHmW18yF2Wx+G4Zi1A==}
     dependencies:
-      cookie-es: 1.0.0
+      cookie-es: 1.1.0
       crossws: 0.2.4
       defu: 6.1.4
       destr: 2.0.3
@@ -9096,8 +9096,8 @@ packages:
       - supports-color
     dev: true
 
-  /unwasm@0.3.8:
-    resolution: {integrity: sha512-nIJQXxGl/gTUp5dZkSc8jbxAqSOa9Vv4jjSZXNI6OK0JXdvW3SQUHR+KY66rjI0W//km59jivGgd5TCvBUWsnA==}
+  /unwasm@0.3.9:
+    resolution: {integrity: sha512-LDxTx/2DkFURUd+BU1vUsF/moj0JsoTvl+2tcg2AUOiEzVturhGGx17/IMgGvKUYdZwr33EJHtChCJuhu9Ouvg==}
     dependencies:
       knitwork: 1.0.0
       magic-string: 0.30.8
